@@ -1,0 +1,8 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+	Git creates a hidden folder, in which your versions are tracked (presumably). Without running git init Git won't be set up to track any files.
+
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+	The working directory and the repository contain all files, but the staging area is empty. It only contains changes that we add, allowing for very fine control over the files we want to update. If the css is looking good we can add those changes to the staging area without also adding the scripts, which may not be ready.

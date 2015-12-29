@@ -1,0 +1,68 @@
+
+How did viewing a "diff" (command in Terminal) between two versions of a file help you see the bug that was introduced?
+
+	Only lines which had been changed between the old version and the new one were displayed, eliminating the tedious task of first finding the differences that could have caused a problem. There were far fewer lines of code to consider after that, so finding the typo that caused the problem was easy. I imagine this would be very useful in situations where you're working with a team. One person may change a part of a large file, breaking the program, and their partners won't have a clue as to where the problem could be. Saving versions of files incrementally seems like a sound idea because when there is a problem -- and there will be problems -- you can simply compare the current version with a previous one to see where the bug may be.
+
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+	When you can access all previous versions of a file, you can look back on changes you made and their outcomes. Maybe you thought something would produce better results but didn't; you can study the entire history of the file in this way, making learning more efficient.
+
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+
+	Of course having more control over when to commit changes is great; you can choose sensible points to commit rather than arbitrary ones, such as time. Providing short, descriptive commit messages also helps you understand the purpose of each commit. The downside is that you have to make these decisions yourself, and there is potential for making mistakes: forgetting to commit, and committing changes that are either too small or too big. Overall, manually choosing when to commit seems much better than having a program do it for you.
+
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+	I think Google Docs wasn't created to manage projects comprised of multiple files, rather they focused on single files. Git, I think, had coding in mind and was developed to manage projects that usually involve very many files and folders. It makes much more sense to save the whole project at intervals, rather than individual files when you keep this sort of work in mind. Google Docs was simply created for different users from what Git targets.
+
+
+How might using version control make you more confident to make changes that could break something?
+
+	By using Git to commit changes to our project we know that we can revert to a previous stable version at all times. So when we are making changes that could break something, we don't have to worry about destroying the project permanently. It is relatively easy to revert the changes we made, and even use the diff command to pin point the changes that might have caused the problem.
+
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+	I want to use Git to keep versions of my resume, journal, and a list of goals or values (maybe). As I start to work on, and complete, more web dev projects I'd like to keep versions of those, too. My bookshelf and heroes projects would be especially good to keep track of, because I could look at past commits to reflect on changes at different stages of my life.
+
+
+
+git clone "repository url" : copies the entire repository to your computer, so you can work on any commit ever made off line.
+
+diff file_v1 file_v2 : displays the differences between two versions of a file
+
+repository: the thing that contains all the commits of a project
+
+commit: a snapshot of every file in the repository at the time that the commit was made.
+
+git checkout: reset all your files to their state in a particular commit.
+
+git log: show the commits made in this repository, starting with the most recent
+
+HEAD: the current commit that you are currently working on
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
