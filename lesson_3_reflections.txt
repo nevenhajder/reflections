@@ -2,3 +2,8 @@
 When would you want to use a remote repository rather than keeping all your work local?
 
 	One situation where a remote repository would be more useful is working with a team. Each person would be able to push their commits to the remote, as well as pull others' commits. This way the team is on the same page. Another possibility is that you are working on a project from different computers. Maintaining a single remote repository is much easier than managing files on each machine you need to use. 
+
+
+Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+
+	Automatic updates could break the project you're working on. If, for example, a tired team member pushes their changes but introduces a bug, then everyone working on the project will also have that bug in their version of the product. Another instance where automatic updates could be harmful is when only one part of a feature has been pushed to the remote, and the person intends to finish it later. Git shouldn't just update your version because the feature isn't ready. Different branches also shouldn't be updated automatically for similar reasons. I think there are too many things that could go wrong when Git starts making this decision for you.
