@@ -6,3 +6,40 @@ What happens when you initialize a repository? Why do you need to do it?
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 
 	The working directory and the repository contain all files, but the staging area is empty. It only contains changes that we add, allowing for very fine control over the files we want to update. If the css is looking good we can add those changes to the staging area without also adding the scripts, which may not be ready.
+
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+	One situation where branches are useful is when reworking core elements of a site. We can change whatever we want without worrying about breaking the stable version, once our changes are complete we can then merge with the stable version. Basically in any situation you want to make changes, but preserve the original until the changes are ready, branches are useful. Some web dev guy: "Branches are useful for context switching. For example, you can switch from working on a feature to fixing a bug on a different branch."
+
+
+How do the diagrams help you visualize the branch structure?
+
+	This is obvious. Trying to visualize connections between branches in your head is nearly impossible, but seeing a diagram clarifies the branch structure. I hope that there is a tool that does this for you, either on GitHub or some GUI for Git.
+
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+	Merging combines one branch (master) "into" another, so that commits from both branches are on a single branch. The commits are ordered by time stamp. The diagram shows two branches merging together to form a new branch, which is what Git does when merging.
+
+
+What are the pros and cons of Git's automatic merging vs. always doing merges manually?
+
+	When Git can merge without any interference between the branches, it's nice that it will do it automatically, so the developer isn't pestered needlessly. However, if there merging could create problems, it's better to ask the developer to make the decision because  the merge could be destructive. This is a nice balance between convenience and control.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
