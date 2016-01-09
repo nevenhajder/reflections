@@ -7,3 +7,22 @@ When would you want to use a remote repository rather than keeping all your work
 Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 
 	Automatic updates could break the project you're working on. If, for example, a tired team member pushes their changes but introduces a bug, then everyone working on the project will also have that bug in their version of the product. Another instance where automatic updates could be harmful is when only one part of a feature has been pushed to the remote, and the person intends to finish it later. Git shouldn't just update your version because the feature isn't ready. Different branches also shouldn't be updated automatically for similar reasons. I think there are too many things that could go wrong when Git starts making this decision for you.
+
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+	A branch exists in the same repository that it was created in. It can be merged with other branches in the repository. Clones are copies of repositories, usually from GitHub to a local machine. The local and remote repositories can interact with one another through push and pull. A fork is a clone on GitHub, which is completely separate from the original, but gives credit to the creator of the original. A branch is useful when you're in control of a project and would like to work on a feature without altering the master version. Clones with remotes are great for working with others on a single project. Forks are useful when you want to build upon someone else's repository, but don't have permission to change theirs.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
