@@ -1,0 +1,4 @@
+
+When would you want to use a remote repository rather than keeping all your work local?
+
+	One situation where a remote repository would be more useful is working with a team. Each person would be able to push their commits to the remote, as well as pull others' commits. This way the team is on the same page. Another possibility is that you are working on a project from different computers. Maintaining a single remote repository is much easier than managing files on each machine you need to use. 
