@@ -1,0 +1,47 @@
+
+When would you want to use a remote repository rather than keeping all your work local?
+
+	One situation where a remote repository would be more useful is working with a team. Each person would be able to push their commits to the remote, as well as pull others' commits. This way the team is on the same page. Another possibility is that you are working on a project from different computers. Maintaining a single remote repository is much easier than managing files on each machine you need to use. 
+
+
+Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+
+	Automatic updates could break the project you're working on. If, for example, a tired team member pushes their changes but introduces a bug, then everyone working on the project will also have that bug in their version of the product. Another instance where automatic updates could be harmful is when only one part of a feature has been pushed to the remote, and the person intends to finish it later. Git shouldn't just update your version because the feature isn't ready. Different branches also shouldn't be updated automatically for similar reasons. I think there are too many things that could go wrong when Git starts making this decision for you.
+
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+	A branch exists in the same repository that it was created in. It can be merged with other branches in the repository. Clones are copies of repositories, usually from GitHub to a local machine. The local and remote repositories can interact with one another through push and pull. A fork is a clone on GitHub, which is completely separate from the original, but gives credit to the creator of the original. A branch is useful when you're in control of a project and would like to work on a feature without altering the master version. Clones with remotes are great for working with others on a single project. Forks are useful when you want to build upon someone else's repository, but don't have permission to change theirs.
+
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+	In case you don't have an internet connection you are still able to reference the latest version of the remote repository. For example, if you are boarding a plane and want to have a copy of the latest version of the repository, you can "git fetch origin" to get a local copy of the latest remote version. Then you can work while you're in the air, making commits and merging when you decide to.
+
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+	Without Git and GitHub we would have to send files to one another, and look carefully for the changes that had been made. Of course this would be much harder because Git and GitHub are specifically designed to make collaboration easier. 
+
+
+"You just saw that the work flow when making changes in a separate branch is more complicated than working directly in master, especially when you need to stay up-to-date with changes others are making. Rather than simply pulling and pushing, you need to pull changes into your local master branch, merge the local master into your branch (different-oil, in our case), then push your branch to the remote before finally merging your branch into master, either locally or on GitHub."
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+	When you have partners that may be changing the master branch themselves, it's useful to create a separate branch for your feature so that you avoid conflicts with work that they are doing. You can work without worrying about what your partners are doing on the master branch until it's time to merge. Then you can resolve any conflicts and merge your branch into master all at once. This approach compartmentalizes your work, so that you don't cause problems for your partners and vice versa. Of course, working directly on the master branch is much easier. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
