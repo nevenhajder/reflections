@@ -19,6 +19,10 @@ What is the benefit of having a copy of the last known state of the remote store
 	In case you don't have an internet connection you are still able to reference the latest version of the remote repository. For example, if you are boarding a plane and want to have a copy of the latest version of the repository, you can "git fetch origin" to get a local copy of the latest remote version. Then you can work while you're in the air, making commits and merging when you decide to.
 
 
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+	Without Git and GitHub we would have to send files to one another, and look carefully for the changes that had been made. Of course this would be much harder because Git and GitHub are specifically designed to make collaboration easier. 
+
 
 
 
