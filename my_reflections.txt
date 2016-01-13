@@ -1,3 +1,4 @@
 Here I'll make some notes without any prompts from the Udacity instructors.
 
 git fetch : To understand what this command does it's important to know that Git keeps copies of remote branches in your local environment. They are hidden from view in ".git/refs/remotes/origin/", and are different from branches in your working directory. Now that we know about these local copies of remote branches we can describe what "git fetch" does; it synchronizes these branches with their remote counterparts, but leaves your working directory unaffected. Just to drive this point home, we can say that "git fetch" will not update anything that you've been working on locally. An interesting way to use "git fetch" is to run "git fetch origin" (to update your local copies of the remote branches), then run "git diff branch-name origin/branch-name"; this'll allow you to review changes that have been made on the remote before merging them into your local repository.
+
